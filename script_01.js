@@ -52,6 +52,29 @@
 
 /***** 03a Konstanten *******/
 
-const  test = "Max";
+// const  test = "Max";
 
-console.log("Inhalt: " + test);
+// console.log("Inhalt: " + test);
+
+/***** 04 Beispiel - Berechnung *******/
+
+// Deklaration
+
+const birthYearJohn = 2000; 
+const birthYearMark = 1990;
+
+let ageJohn = 23;
+let ageMark = 33;
+
+let date = new Date();
+let jahr = date.getFullYear()
+// console.log(jahr);
+
+ageJohn = jahr - birthYearJohn;
+ageMark = jahr - birthYearMark;
+
+console.log("Alter John " + ageJohn);
+console.log("Alter Mark " + ageMark);
+
+// console.log("ageJohn: " + ageJohn);
+// console.log("ageMark: " + ageMark);
