@@ -11,7 +11,7 @@
 */
 
 // Konsolen-Ausgaben
-console.log("Hi");
+// console.log("Hi");
 // console.log(firstName);
 
 /***** 02 Deklaration + Wertzuweisung I *******/
@@ -41,11 +41,17 @@ console.log("Hi");
 
 /* JS ist eine untypisierte Sprache! | untyped */
 
-let test;
+// let test;
 
-test = "Lukas";
-test = 5;
-test = false;
+// test = "Lukas";
+// test = 5;
+// test = false;
 
-console.log("Datentyp: " + typeof test);
+// console.log("Datentyp: " + typeof test);
+// console.log("Inhalt: " + test);
+
+/***** 03a Konstanten *******/
+
+const  test = "Max";
+
 console.log("Inhalt: " + test);
