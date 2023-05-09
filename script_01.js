@@ -16,8 +16,15 @@ console.log("Hi");
 
 /***** 02 Deklaration + Wertzuweisung I *******/
 
-let firstName = "Lukas";
-console.log(firstName);
+// let firstName = "Lukas";
+// console.log(firstName);
 
-let familyName = "Gedrat";
-console.log(familyName);
+// let familyName = "Gedrat";
+// console.log(familyName);
+
+/***** 03 Deklaration + Wertzuweisung II *******/
+
+let firstName, familyName;
+
+firstName = "Lukas";
+familyName = "Gedrat";
