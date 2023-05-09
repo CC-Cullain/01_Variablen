@@ -24,7 +24,28 @@ console.log("Hi");
 
 /***** 03 Deklaration + Wertzuweisung II *******/
 
-let firstName, familyName;
+// let firstName, familyName;
 
-firstName = "Lukas";
-familyName = "Gedrat";
+// firstName = "Lukas";
+// familyName = "Gedrat";
+
+// console.log(firstName + " " + familyName);
+
+// let firstName, familyName;
+
+// firstName = prompt("Bitte Vornamen eingeben");
+// familyName = prompt("Bitte Nachnamen eingeben");
+
+// console.log(firstName + " " + familyName);
+// console.log(typeof firstName);
+
+/* JS ist eine untypisierte Sprache! | untyped */
+
+let test;
+
+test = "Lukas";
+test = 5;
+test = false;
+
+console.log("Datentyp: " + typeof test);
+console.log("Inhalt: " + test);
